@@ -14,7 +14,7 @@
 # a2 has float* x
 # a3 has float* y
 vec_vvadd_asm:
-    li a4, VCFG(4, 0, 0, 1)
+    li a4, VCFG(3, 0, 0, 1)
     vsetcfg a4
     addi	t0, t1, 0			# t0 = t1 + 0
        
